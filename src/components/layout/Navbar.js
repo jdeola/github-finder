@@ -12,7 +12,7 @@ const Navbar = ({ icon, title }) => {
     )
 }
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
     // shortcut: ptsr
     title: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired
@@ -22,3 +22,5 @@ Navbar.defaultProps = {
     title: 'Github Finder',
     icon: 'fab fa-github'
 };
+
+export default Navbar;
